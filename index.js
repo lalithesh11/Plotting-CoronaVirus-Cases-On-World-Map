@@ -1,6 +1,6 @@
 function updateMap() {
     console.log("Updating map with data");
-    fetch("/data.json")
+    fetch("./data.json")
         .then(response => response.json())
         .then(rsp => {
 
